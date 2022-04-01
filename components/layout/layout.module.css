@@ -1,0 +1,15 @@
+.root,
+.header,
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    align-items: center;
+}
+
+.logo {
+    max-width: 350px;
+    padding: 50px;
+}
