@@ -1,0 +1,13 @@
+.root {
+    padding: 50px;
+}
+
+.img {
+    max-width: 100%;
+}
+
+@media (min-width: 490px) {
+    .img {
+        max-width: 350px;
+    }
+}

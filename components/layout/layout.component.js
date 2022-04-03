@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <div className={styles.root}>
       <header className={styles.header}>
-        <MartanLogo className={styles.logo} />
+        <MartanLogo />
       </header>
       <main className={styles.main}>{children}</main>
     </div>
