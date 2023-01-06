@@ -8,8 +8,8 @@ export default function MartanLogo(props) {
       <Img
         {...props}
         className={styles.img}
-        src="/karinamartan-logo.png"
-        alt="Karina Martan"
+        src="/martan-inclass-logo.png"
+        alt="Martan InClass"
       />
     </div>
   );

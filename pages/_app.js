@@ -9,7 +9,7 @@ export default function MartanApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Karina Martan — Danças Árabes</title>
+        <title>Martan InClass — Dança Oriental Árabe</title>
         <Favicons />
       </Head>
       <Component {...pageProps} />
