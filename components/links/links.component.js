@@ -7,22 +7,16 @@ export default function Links({ className, children, ...restProps }) {
     <div {...restProps}>
       <LinkButton
         className={styles.link}
-        to="https://bit.ly/martan-inclass-imersao-2023"
+        to="https://bit.ly/mclass-matriculas-2023"
         pulsing
       >
-        Imersão Dança do Ventre 2023 🥂💃🧡
+        Faça sua Matrícula 💃
       </LinkButton>
       <LinkButton
         className={styles.link}
         to="https://bit.ly/karina-martan-fale-comigo"
       >
         Fale Comigo 🧡
-      </LinkButton>
-      <LinkButton
-        className={styles.link}
-        to="https://bit.ly/karina-martan-night-show-tbt"
-      >
-        Night Show #tbt
       </LinkButton>
       <LinkButton
         className={styles.link}
