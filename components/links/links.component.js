@@ -22,7 +22,10 @@ export default function Links({ className, children, ...restProps }) {
         className={styles.link}
         to="https://bit.ly/karina-martan-instagram"
       >
-        Instagram
+        Instagram @karinamartan
+      </LinkButton>
+      <LinkButton className={styles.link} to="https://bit.ly/karina-martan-loc">
+        📍 Localização
       </LinkButton>
     </div>
   );
