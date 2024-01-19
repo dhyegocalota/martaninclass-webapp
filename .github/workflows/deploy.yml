@@ -6,7 +6,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     env:
-      GOOGLE_ANALYTICS_ID: G-FX0REQRF60
+      GOOGLE_ANALYTICS_ID: G-TXBW8THTZK
     strategy:
       matrix:
         node-version: [14.x]
