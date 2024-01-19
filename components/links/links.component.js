@@ -16,7 +16,7 @@ export default function Links({ className, children, ...restProps }) {
         className={styles.link}
         to="https://bit.ly/karina-martan-fale-comigo"
       >
-        Fale Comigo 💃
+        WhatsApp 📲
       </LinkButton>
       <LinkButton
         className={styles.link}
@@ -25,7 +25,7 @@ export default function Links({ className, children, ...restProps }) {
         Instagram @karinamartan
       </LinkButton>
       <LinkButton className={styles.link} to="https://bit.ly/karina-martan-loc">
-        📍 Localização
+        📍 Localização da Escola
       </LinkButton>
     </div>
   );
