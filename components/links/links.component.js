@@ -7,10 +7,17 @@ export default function Links({ className, children, ...restProps }) {
     <div {...restProps}>
       <LinkButton
         className={styles.link}
-        to="https://bit.ly/imersao-2-0-mclass"
+        to="https://forms.gle/NuQ3A6D6xW2Pyyzv6"
         pulsing
       >
-        Matrícula IMERSÃO 2.0 MCLASS 🧡
+        Programação Especial — Semana de Aulas Gratuitas e Festa 🧡
+      </LinkButton>
+      <LinkButton
+        className={styles.link}
+        to="https://forms.gle/H31dGWXChxL1BFLC7"
+        pulsing
+      >
+        Matrículas Abertas Martan InClass 2024
       </LinkButton>
       <LinkButton
         className={styles.link}
